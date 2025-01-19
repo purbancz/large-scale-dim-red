@@ -8,6 +8,14 @@ This repository contains scripts and workflows to perform large-scale dimensiona
 
 ### Access Requirements
 - Valid HPC account on **Athena** or **Ares**.
+  ```bash
+  ssh [username]@ares.cyfronet.pl
+  ssh [username]@athena.cyfronet.pl
+  ```
+- Access to dataset.
+  ```bash
+  ls /net/pr2/projects/plgrid/plgglscclass/geometricus_embeddings
+  ```
 - Familiarity with SLURM job scheduler.
 
 ### Environment Setup
