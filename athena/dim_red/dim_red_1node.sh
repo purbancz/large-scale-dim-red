@@ -2,7 +2,7 @@
 #SBATCH --job-name=geom_emb_dim_red_1node   # Job name
 #SBATCH --output=%x_%j.out                  # Output file (%x = job name, %j = job ID)
 #SBATCH --error=%x_%j.err                   # Error file
-#SBATCH --time=48:00:00                      # Max time (hh:mm:ss)
+#SBATCH --time=48:00:00                     # Max time (hh:mm:ss)
 #SBATCH --partition=plgrid-gpu-a100         # Partition name
 #SBATCH --account=plglscclass24-gpu-a100    # Account name
 #SBATCH --nodes=1                           # Number of nodes
@@ -15,7 +15,7 @@
 module load Miniconda3
 conda init
 eval "$(conda shell.bash hook)"
-conda activate cupy-env
+conda activate dim-reduction
 
 echo "PYTHON SCRIPT IS BEING EXECUTED"
 

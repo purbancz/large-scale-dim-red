@@ -14,7 +14,7 @@
 module load miniconda3
 conda init
 eval "$(conda shell.bash hook)"
-conda activate cupy-env
+conda activate dim-reduction
 
 echo "PYTHON SCRIPT IS BEING EXECUTED"
 
