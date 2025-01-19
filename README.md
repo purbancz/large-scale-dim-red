@@ -54,11 +54,10 @@ This repository contains scripts and workflows to perform large-scale dimensiona
   ```bash
   conda create -n dim-reduction python=3.8 -y
   conda activate dim-reduction
-  conda install -c conda-forge numpy pandas seaborn matplotlib scikit-learn umap-learn pacmap trimap
   ```
 - Install required libraries:
   ```bash
-  pip install numpy scipy scikit-learn matplotlib
+  conda install -c conda-forge numpy pandas seaborn matplotlib scikit-learn umap-learn pacmap trimap
   ```
 
 ### 2. Preparing the Input Data
