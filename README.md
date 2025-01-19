@@ -175,8 +175,8 @@ sbatch dim_red/dim_red_2nodes.sh
 
 ## Authors and Acknowledgments
 - Developed by [![github](https://img.shields.io/badge/GitHub-purbancz-181717.svg?style=flat&logo=github)](https://github.com/purbancz)
-[![X](https://img.shields.io/badge/X-%23000000.svg?logo=X&logoColor=white)](https://twitter.com/purbancz)
-[![linkedin](https://custom-icon-badges.demolab.com/badge/LinkedIn%20Learning-0A66C2?logo=linkedin-white&logoColor=fff)](https://www.linkedin.com/in/piotr-urba%C5%84czyk-9943ab17a/)
+[![X](https://img.shields.io/badge/X-@purbancz-%23000000.svg?logo=X&logoColor=white)](https://twitter.com/purbancz)
+[![linkedIn](https://custom-icon-badges.demolab.com/badge/LinkedIn-Piotr_Urbańczyk-0A66C2?logo=linkedin-white&logoColor=fff)](https://www.linkedin.com/in/piotr-urba%C5%84czyk-9943ab17a/)
 [![website](https://img.shields.io/badge/Website-Piotr_Urbańczyk-5087B2.svg?style=flat&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgdmlld0JveD0iMCAwIDI0IDI0Ij4KICAgIDxwYXRoIGQ9Ik0gMTIgMi4wOTk2MDk0IEwgMSAxMiBMIDQgMTIgTCA0IDIxIEwgMTAgMjEgTCAxMCAxNCBMIDE0IDE0IEwgMTQgMjEgTCAyMCAyMSBMIDIwIDEyIEwgMjMgMTIgTCAxMiAyLjA5OTYwOTQgeiIgZmlsbD0iI2ZmZiI+PC9wYXRoPgo8L3N2Zz4=)](https://www.copernicuscenter.edu.pl/en/person/urbanczyk-piotr-2/)
 .
 - Thanks to Cyfronet HPC team for their documentation and support.
