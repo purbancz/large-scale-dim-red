@@ -1,4 +1,4 @@
-# Large-Scale Dimensionality Reduction on HPC Clusters
+# Large-scale dimensionality reduction on HPC clusters
 
 This repository contains scripts and workflows to perform large-scale dimensionality reduction tasks using HPC resources on Athena and Ares clusters. The primary goal is to enable efficient computation and parallelism for handling high-dimensional datasets. Below are the steps, commands, and setup details for this repository.
 
@@ -7,7 +7,7 @@ This repository contains scripts and workflows to perform large-scale dimensiona
 ## Prerequisites
 
 ### Access Requirements
-- Valid HPC account on **Athena** or **Ares**.
+- Valid account on **Athena** or **Ares** cluster.
   ```bash
   ssh [username]@ares.cyfronet.pl
   ssh [username]@athena.cyfronet.pl
@@ -24,7 +24,7 @@ This repository contains scripts and workflows to perform large-scale dimensiona
   ```bash
   module load miniconda3
   ```
-  or
+  on Ares or
   ```bash
   module load Miniconda3
   ```
@@ -179,7 +179,7 @@ sbatch dim_red/dim_red_2nodes.sh
 [![linkedIn](https://custom-icon-badges.demolab.com/badge/LinkedIn-Piotr_Urbańczyk-0A66C2?logo=linkedin-white&logoColor=fff)](https://www.linkedin.com/in/piotr-urba%C5%84czyk-9943ab17a/)
 [![website](https://img.shields.io/badge/Website-Piotr_Urbańczyk-5087B2.svg?style=flat&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgdmlld0JveD0iMCAwIDI0IDI0Ij4KICAgIDxwYXRoIGQ9Ik0gMTIgMi4wOTk2MDk0IEwgMSAxMiBMIDQgMTIgTCA0IDIxIEwgMTAgMjEgTCAxMCAxNCBMIDE0IDE0IEwgMTQgMjEgTCAyMCAyMSBMIDIwIDEyIEwgMjMgMTIgTCAxMiAyLjA5OTYwOTQgeiIgZmlsbD0iI2ZmZiI+PC9wYXRoPgo8L3N2Zz4=)](https://www.copernicuscenter.edu.pl/en/person/urbanczyk-piotr-2/)
 .
-- Thanks to Cyfronet HPC team for their documentation and support.
+- Thanks to Cyfronet HPC team for their documentation.
 
 
 
