@@ -77,6 +77,7 @@ This repository contains scripts and workflows to perform large-scale dimensiona
   ```bash
   python scripts/dim_reduction.py --input data/dataset.csv --output results/reduced.csv
   ```
+- You can also use jupyter notebook file to test compatibility of the code (locally or in the cluster).
 
 ### 4. Running on HPC Clusters
 
