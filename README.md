@@ -14,7 +14,7 @@ This repository contains scripts and workflows to perform large-scale dimensiona
   ```
 - Access to dataset.
   ```bash
-  ls /net/pr2/projects/plgrid/plgglscclass/geometricus_embeddings
+  ls -l /net/pr2/projects/plgrid/plgglscclass/geometricus_embeddings/X_concatenated_all_dims.npy
   ```
 - Familiarity with SLURM job scheduler.
 
@@ -69,8 +69,11 @@ This repository contains scripts and workflows to perform large-scale dimensiona
   ```
 
 ### 2. Preparing the Input Data
-- Place high-dimensional datasets in the `data/` directory.
-- Ensure the data is in a format compatible with the scripts (e.g., CSV or NumPy).
+- Check whether you have acces to the data
+  ```bash
+  ls -l /net/pr2/projects/plgrid/plgglscclass/geometricus_embeddings/X_concatenated_all_dims.npy
+  ls -ld /net/pr2/projects/plgrid/plgglscclass/geometricus_embeddings
+  ```
 
 ### 3. Running Dimensionality Reduction Locally
 - Test scripts locally to ensure compatibility before deploying on the cluster:
