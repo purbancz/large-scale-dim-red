@@ -58,6 +58,11 @@ This repository contains scripts and workflows to perform large-scale dimensiona
 ## Workflow and Commands
 
 ### 1. Setting Up the Python Environment
+- (Recommended step) Configure conda to use your `$SCRATCH` storage space:
+  ```bash
+  conda config --add envs_dirs ${SCRATCH}/.conda/envs 
+  conda config --add pkgs_dirs ${SCRATCH}/.conda/pkgs
+  ```
 - Create a virtual environment:
   ```bash
   conda create -n dim-reduction python=3.8 -y
