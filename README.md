@@ -6,7 +6,7 @@ This repository contains scripts and workflows to perform large-scale dimensiona
 
 ## Prerequisites
 
-### Access Requirements
+### Requirements
 - Valid account on **Athena** or **Ares** cluster.
   ```bash
   ssh [username]@ares.cyfronet.pl
@@ -50,7 +50,7 @@ This repository contains scripts and workflows to perform large-scale dimensiona
 │   │   ├── dim_red_1node.sh        # SLURM script for 1-node
 │   │   ├── dim_red_2nodes.sh       # SLURM script for 2-nodes
 │   │   └── geom_emb_dim_red.py     # Python script for dimensionality reduction
-└── README.md                        # This file
+└── README.md                       # This file
 ```
 
 ---
