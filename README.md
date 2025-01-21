@@ -91,7 +91,7 @@ This repository contains scripts and workflows to perform large-scale dimensiona
   ```bash
   srun --time=2:00:00 --mem=64G --cpus-per-task=16 --ntasks=1 --partition=plgrid --account=[grantname]-cpu --pty /bin/bash
   ```
-  3. Install and run Jupyter server:
+  2. Install and run Jupyter server:
   ```bash
   conda install -c conda-forge jupyter
   hostname
