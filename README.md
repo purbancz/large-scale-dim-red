@@ -83,9 +83,37 @@ This repository contains scripts and workflows to perform large-scale dimensiona
 ### 3. Running Dimensionality Reduction Locally
 - Test scripts locally to ensure compatibility before deploying on the cluster:
   ```bash
-  python scripts/dim_reduction.py --input data/dataset.csv --output results/reduced.csv
+  python ares/dim_red/geom_emb_dim_red.py
   ```
 - You can also use jupyter notebook file to test compatibility of the code (locally or in the cluster).
+  To do it on the cluster:
+  1. Request interactive job on the claster, e.g., on Ares:
+  ```bash
+  srun --time=2:00:00 --mem=64G --cpus-per-task=16 --ntasks=1 --partition=plgrid --account=[grantname]-cpu --pty /bin/bash
+  ```
+  3. Install and run Jupyter server:
+  ```bash
+  conda install -c conda-forge jupyter
+  hostname
+  jupyter notebook --no-browser --port=[port-number] --ip=[hostname]
+  ```
+  Note: Use a port number greater than 1024 (e.g., 8888).
+  Jupyter will display a connection URL like:
+  ```
+  http://ag0009:8888/?token=your_token_here
+  ```
+  Keep this URL handy, you will need it later.
+
+  3. On your local machine:
+  - Open Visual Studio Code.
+  - Install the _Remote - SSH_ extension by Microsoft (if not already installed).
+  - Press `Ctrl+Shift+P` (or `Cmd+Shift+P` on macOS) to open the Command Palette.
+  - Type "Remote-SSH: Connect to Host" and select it.
+  - Connect to Ares using your SSH configuration.
+  - In VSC, navigate to `ares/dim_red` and open `geom_emb_dim_red.ipynb` file.
+  - When prompted to select a kernel, choose "Existing Jupyter Server".
+  - Paste the Jupyter connection URL you obtained earlier (e.g., `http://ag0009:8888/?token=your_token_here`).
+    
 
 ### 4. Running on HPC Clusters
 
